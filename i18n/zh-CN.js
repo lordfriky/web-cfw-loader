@@ -15,7 +15,7 @@ let zhCN = {
   "liLaunch"       :"如果一切顺利，Payload将成功加载!",
   "h1SetupDelivery" :"部署 Payload",
   "h4SelectPayload" :"选择 Payload:",
-  "optionCTCaerHekate"  :"CTCaer's Hekate Mod v3.0 (全版本)",
+  "optionCTCaerHekate"  :"CTCaer's Hekate Mod v3.2 (全版本)",
   "optionFusee"     :"(Re)Switched test payload (fusee)",
   "optionSXOS"     :"SX OS (全版本)",
   "h3Log"          :"日志:",
