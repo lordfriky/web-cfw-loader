@@ -18,6 +18,7 @@ let zhCN = {
   "optionCTCaerHekate"  :"CTCaer's Hekate Mod v3.0 (全版本)",
   "optionFusee"     :"(Re)Switched test payload (fusee)",
   "optionSXOS"     :"SX OS (全版本)",
+  "h3Log"          :"日志:",
   "optionUpload"    :"上传 Payload",
   "h4GetByteArray"  :"获取Payload byte array (无Sploit)",
   "goButton"        :"传递 Payload!",
