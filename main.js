@@ -149,6 +149,9 @@ document.getElementById("goButton").addEventListener("click", async () => {
   if (payloadType === "CTCaer_Hekate") {
     payload = CTCaer_Hekate;
 
+  } else if (payloadType === "CTCaer_Hekate4") {
+    payload = CTCaer_Hekate4;
+
   } else if (payloadType === "fusee") {
     payload = fusee;
 
