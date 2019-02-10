@@ -25,6 +25,6 @@ let zhTW = {
   "clearlogsbutton" :"清除日誌",
   "disclaimer1" :'Source can be found on <a href="https://github.com/AtlasNX/web-cfw-loader/">GitHub</a> (or by hitting view source, there is no backend!).',
   "disclaimer2" :'Ported from <a href="https://github.com/reswitched/fusee-launcher">fusee-launcher</a>.',
-  "disclaimer3" :'Thanks to ktemkin and ReSwitched, as well as <br><a href="https://atlas44.s3-us-west-2.amazonaws.com/web-fusee-launcher/index.html">Atlas44 and his website</a> as a beginning point for this one.',
+  "disclaimer3" :'Thanks to <a href="https://github.com/ktemkin">ktemkin</a> and <a href="https://github.com/reswitched">ReSwitched</a>, as well as <a href="https://github.com/atlas44">Atlas44</a> and <br><a href="https://atlas44.s3-us-west-2.amazonaws.com/web-fusee-launcher/index.html">his website</a> as a beginning point for this one.',
   "disclaimer4" :'Lastly, thanks to <a href="https://github.com/falquinho">falquinho</a> for the new bootstrap layout and portuguese translation, <a href="https://github.com/Filo97">Filo97</a> for the italian translation, <a href="https://github.com/tumGER">tumGER</a> for his german translation, and <a href="https://github.com/lordfriky">Lord_Friky</a> for the spanish translation.'
 }

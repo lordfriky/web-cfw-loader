@@ -26,6 +26,6 @@ let ptBR = {
   "clearlogsbutton" :"Limpar Logs",
   "disclaimer1" :'Código fonte disponível em <a href="https://github.com/AtlasNX/web-cfw-loader/">GitHub</a> (ou simplesmente clicando "ver código", não há backend).',
   "disclaimer2" :'Um port do <a href="https://github.com/reswitched/fusee-launcher">fusee-launcher</a>.',
-  "disclaimer3" :'Muito obrigado a Ktemkin e time (Re)Switched, bem como <br><a href="https://atlas44.s3-us-west-2.amazonaws.com/web-fusee-launcher/index.html">Atlas44 e seu website</a> que é a base deste.',
+  "disclaimer3" :'Muito obrigado a <a href="https://github.com/ktemkin">ktemkin</a> e time <a href="https://github.com/reswitched">ReSwitched</a>, bem como <br><a href="https://github.com/atlas44">Atlas44</a> e <a href="https://atlas44.s3-us-west-2.amazonaws.com/web-fusee-launcher/index.html">seu website</a> que é a base deste.',
   "disclaimer4" :'Por último, obrigado <a href="https://github.com/falquinho">falquinho</a> pelo novo layout Bootstrap e tradução para português, <a href="https://github.com/thomleg50">thomleg50</a> pela tradução para francês, <a href="https://github.com/Filo97">Filo97</a> pela tradução para italiano, <a href="https://github.com/tumGER">tumGER</a> pela tradução para alemão, <a href="https://github.com/lordfriky">Lord_Friky</a> pela tradução para espanhol, e <a href="https://github.com/lorek123">Lorek</a> pela tradução para polonês.'
 }

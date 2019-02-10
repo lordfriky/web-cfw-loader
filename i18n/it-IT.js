@@ -26,6 +26,6 @@ let itIT = {
   "clearlogsbutton" :"Pulisci Logs",
   "disclaimer1" :'Il source puo essere trovato a <a href="https://github.com/AtlasNX/web-cfw-loader/">GitHub</a> (o premendo guarda source, ma non c\'è backend!).',
   "disclaimer2" :'Portato da <a href="https://github.com/reswitched/fusee-launcher">fusee-launcher</a>.',
-  "disclaimer3" :'Grazie tante a ktemkin e ReSwitched, e non dimentichiamoci <br><a href="https://atlas44.s3-us-west-2.amazonaws.com/web-fusee-launcher/index.html">Atlas44 e il suo sito</a> come punto di inizio per questo.',
+  "disclaimer3" :'Grazie tante a <a href="https://github.com/ktemkin">ktemkin</a> e <a href="https://github.com/reswitched">ReSwitched</a>, e non dimentichiamoci <br><a href="https://github.com/atlas44">Atlas44</a> e il <a href="https://atlas44.s3-us-west-2.amazonaws.com/web-fusee-launcher/index.html">suo sito</a> come punto di inizio per questo.',
   "disclaimer4" :'Lastly, thanks to <a href="https://github.com/falquinho">falquinho</a> for the new bootstrap layout and portuguese translation, <a href="https://github.com/thomleg50">thomleg50</a> for the french translation, <a href="https://github.com/Filo97">Filo97</a> for the italian translation, <a href="https://github.com/tumGER">tumGER</a> for his german translation, <a href="https://github.com/lordfriky">Lord_Friky</a> for the spanish translation, and <a href="https://github.com/lorek123">Lorek</a> for the polish translation.'
 }

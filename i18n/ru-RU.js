@@ -26,6 +26,6 @@ let ruRU = {
   "clearlogsbutton" :"Очистить лог",
   "disclaimer1" :'Исходники можно найти на <a href="https://github.com/AtlasNX/web-cfw-loader/">GitHub</a> (либо просто нажмите "посмотреть код страницы", бекенда тут нет!).',
   "disclaimer2" :'Портировано от <a href="https://github.com/reswitched/fusee-launcher">fusee-launcher</a>.',
-  "disclaimer3" :'Спасибо ktemkin и ReSwitched, а так же <br><a href="https://atlas44.s3-us-west-2.amazonaws.com/web-fusee-launcher/index.html">Atlas44 и его вебсайту</a> за то, что положил проекту начало.',
+  "disclaimer3" :'Спасибо <a href="https://github.com/ktemkin">ktemkin</a> и <a href="https://github.com/reswitched">ReSwitched</a>, а так же <br><a href="https://github.com/atlas44">Atlas44</a> и <a href="https://atlas44.s3-us-west-2.amazonaws.com/web-fusee-launcher/index.html">его вебсайту</a> за то, что положил проекту начало.',
   "disclaimer4" :'Наконец, спасибо <a href="https://github.com/falquinho">falquinho</a> за макет начальной загрузки и перевод на португальский, <a href="https://github.com/Filo97">Filo97</a> за перевод на итальянский, <a href="https://github.com/tumGER">tumGER</a> за перевод на немецкий, и <a href="https://github.com/lordfriky">Lord_Friky</a> за перевод на испанский.'
 }

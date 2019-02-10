@@ -28,6 +28,6 @@ let plPL = {
   "clearlogsbutton" :"Wyczyść logi",
   "disclaimer1" :'Źródła możesz znaleźć na <a href="https://github.com/AtlasNX/web-cfw-loader/">GitHub</a> (Albo przeglądając źródła strony, Aplikacja nie wykorzystuje backendu!).',
   "disclaimer2" :'Przeportowano <a href="https://github.com/reswitched/fusee-launcher">fusee-launcher</a>.',
-  "disclaimer3" :'Podziękowania należą się ktemkin i ReSwitched, oraz <br><a href="https://atlas44.s3-us-west-2.amazonaws.com/web-fusee-launcher/index.html">Atlas44 i jego stronie</a> jako punkt startu dla tej aplikacji',
+  "disclaimer3" :'Podziękowania należą się <a href="https://github.com/ktemkin">ktemkin</a> i <a href="https://github.com/reswitched">ReSwitched</a>, oraz <br><a href="https://github.com/atlas44">Atlas44</a> i <a href="https://atlas44.s3-us-west-2.amazonaws.com/web-fusee-launcher/index.html">jego stronie</a> jako punkt startu dla tej aplikacji',
   "disclaimer4" :'Na końću, podziękowania należą się <a href="https://github.com/falquinho">falquinho</a> Dla nowego układu strony w bootstrapie i portugalskiego tłumaczenia, <a href="https://github.com/thomleg50">thomleg50</a> za francuski tłumaczenie, <a href="https://github.com/Filo97">Filo97</a> za włoskie tłumaczenie, <a href="https://github.com/tumGER">tumGER</a> za niemieckie tłumaczenie, <a href="https://github.com/lordfriky">Lord_Friky</a> za hiszpańskie tłumaczenie i dla <a href="https://github.com/lorek123">Lorek</a> za polskie tłumaczenie.'
 }
