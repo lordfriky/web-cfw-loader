@@ -18,7 +18,6 @@ let zhCN = {
   "optionFusee"     :"(Re)Switched test payload (fusee)",
   "optionSXOS"      :"SX OS",
   "optionReiNX"     :"ReiNX 2.0",
-  "optionBriccmii"  :"Briccmii",
   "optionUpload"    :"上传 Payload",
   "h4GetByteArray"  :"获取Payload byte array (无Sploit)",
   "goButton"        :"传递 Payload!",

@@ -20,7 +20,6 @@ let plPL = {
   "optionFusee"     :"(Re)Switched testowy payload (fusee)",
   "optionSXOS"      :"SX OS",
   "optionReiNX"     :"ReiNX 2.0",
-  "optionBriccmii"  :"Briccmii",
   "optionUpload"    :"Załaduj payload",
   "h3Log"           :"Log:",
   "h4GetByteArray"  :"Uzyskaj ciąg bajtów payloadu (nie uruchamiaj)",

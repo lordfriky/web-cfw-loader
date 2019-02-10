@@ -18,7 +18,6 @@ let deDE = {
   "optionFusee"     :"(Re)Switched Test Payload (fusee)",
   "optionSXOS"      :"SX OS",
   "optionReiNX"     :"ReiNX 2.0",
-  "optionBriccmii"  :"Briccmii",
   "optionUpload"    :"Eigenes Payload hochladen",
   "h3Log"           :"Protokoll:",
   "h4GetByteArray"  :"Erhalte das Payload Byte-Array (nicht senden)",

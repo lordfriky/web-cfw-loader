@@ -18,7 +18,6 @@ let zhTW = {
   "optionFusee"     :"(Re)Switched test payload (fusee)",
   "optionSXOS"      :"SX OS",
   "optionReiNX"     :"ReiNX 2.0",
-  "optionBriccmii"  :"Briccmii",
   "optionUpload"    :"上傳Payload",
   "h4GetByteArray"  :"獲取Payload byte array (無Sploit)",
   "goButton"        :"傳遞Payload!",

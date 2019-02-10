@@ -18,7 +18,6 @@ let ptBR = {
   "optionFusee"     :"Payload de teste (Re)Switched (fusee)",
   "optionSXOS"      :"SX OS",
   "optionReiNX"     :"ReiNX 2.0",
-  "optionBriccmii"  :"Briccmii",
   "optionUpload"    :"Carregar Payload",
   "h3Log"           :"Log:",
   "h4GetByteArray"  :"Recuperar array de bytes do payload (favor não exploitar)",

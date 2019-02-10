@@ -18,7 +18,6 @@ let itIT = {
   "optionFusee"     :"(Re)Switched payload di test (fusee)",
   "optionSXOS"      :"SX OS",
   "optionReiNX"     :"ReiNX 2.0",
-  "optionBriccmii"  :"Briccmii",
   "optionUpload"    :"Carica payload",
   "h3Log"           :"Log:",
   "h4GetByteArray"  :"Ottieni byte array del payload (no exploit)",

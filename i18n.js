@@ -53,7 +53,6 @@ function setPageLanguage(lang) {
   document.getElementById("optionFusee").innerHTML     = langObj.optionFusee;
   document.getElementById("optionSXOS").innerHTML      = langObj.optionSXOS;
   document.getElementById("optionReiNX").innerHTML     = langObj.optionReiNX;
-  document.getElementById("optionBriccmii").innerHTML  = langObj.optionBriccmii;
   document.getElementById("optionUpload").innerHTML    = langObj.optionUpload;
   document.getElementById("h4GetByteArray").innerHTML  = langObj.h4GetByteArray;
   document.getElementById("h3Log").innerHTML           = langObj.h3Log;

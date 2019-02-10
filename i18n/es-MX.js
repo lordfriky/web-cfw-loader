@@ -18,7 +18,6 @@ let esMX = {
   "optionFusee"     :"Payload de prueba de (Re)Switched (fusee)",
   "optionSXOS"      :"SX OS (Todas las Versiones)",
   "optionReiNX"     :"ReiNX 2.0",
-  "optionBriccmii"  :"Briccmii",
   "optionUpload"    :"Subir Payload",
   "h3Log"           :"Registro:",
   "h4GetByteArray"  :"Obtener matriz de bytes del payload (sin exploit)",

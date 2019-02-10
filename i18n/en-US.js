@@ -19,7 +19,6 @@ let enUS = {
   "optionFusee"     :"(Re)Switched test payload (fusee)",
   "optionSXOS"      :"SX OS (All Versions)",
   "optionReiNX"     :"ReiNX 2.0",
-  "optionBriccmii"  :"Briccmii",
   "optionUpload"    :"Upload Payload",
   "h3Log"           :"Log:",
   "h4GetByteArray"  :"Get payload byte array (don't sploit)",

@@ -18,7 +18,6 @@ let ruRU = {
   "optionFusee"     :"Тестовый пейлоад от (Re)Switched",
   "optionSXOS"      :"SX OS",
   "optionReiNX"     :"ReiNX 2.0",
-  "optionBriccmii"  :"Briccmii",
   "optionUpload"    :"Загрузить свой пейлоад",
   "h3Log"           :"Log:",
   "h4GetByteArray"  :"Получить побайтовый вывод листинга пейлоада в лог (без отправки на консоль)",
