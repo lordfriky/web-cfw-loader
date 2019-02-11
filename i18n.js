@@ -47,6 +47,7 @@ function setPageLanguage(lang) {
   document.getElementById("liPress").innerHTML        = langObj.liPress;
   document.getElementById("liAPX").innerHTML          = langObj.liAPX;
   document.getElementById("liLaunch").innerHTML       = langObj.liLaunch;
+  document.getElementById("labelContribute").innerHTML = langObj.labelContribute;
   document.getElementById("h1SetupDelivery").innerHTML = langObj.h1SetupDelivery;
   document.getElementById("h4SelectPayload").innerHTML = langObj.h4SelectPayload;
   document.getElementById("optionAtmosphere").innerHTML = langObj.optionAtmosphere;

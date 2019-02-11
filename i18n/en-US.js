@@ -12,7 +12,7 @@ let enUS = {
   "liPress"        :"Press 'Deliver Payload!'",
   "liAPX"          :"On the consent screen that appears, select 'APX' and hit 'Connect'.",
   "liLaunch"       :"If all goes well, the payload will launch!",
-  "labelAddPayload":"If you would like to add another payload to this project, use <a href='https://gist.github.com/lorek123/561e4f7b5f61618029cc70672e3d7308'>this converter</a> and do PR",
+  "labelContribute" :"If you would like to help adding another translation or updating/adding a payload, check <a href="https://github.com/AtlasNX/web-cfw-loader/blob/master/CONTRIBUTING.md">this</a>.",
   "h1SetupDelivery" :"Setup Payload Delivery",
   "h4SelectPayload" :"Select Payload:",
   "optionAtmosphere" :"Atmosphère 0.8.3",

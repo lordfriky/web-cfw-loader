@@ -12,6 +12,7 @@ let ptBR = {
   "liPress"        :"Clique em 'Enviar Payload'!",
   "liAPX"          :"No diálogo de confirmação escolha 'APX' e clique em 'Conectar-se'",
   "liLaunch"       :"Se tudo der certo, o payload executará!",
+  "labelContribute" :"If you would like to help adding another translation or updating/adding a payload, check <a href="https://github.com/AtlasNX/web-cfw-loader/blob/master/CONTRIBUTING.md">this</a>.",
   "h1SetupDelivery" :"Configurar Entrega de Payload",
   "h4SelectPayload" :"Payload:",
   "optionAtmosphere" :"Atmosphère 0.8.3",

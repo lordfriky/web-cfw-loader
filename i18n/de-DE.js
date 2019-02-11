@@ -12,6 +12,7 @@ let deDE = {
   "liPress"        :'Drücken Sie: "Payload senden"',
   "liAPX"          :'Auf dem Erlaubnisbildschirm müssen Sie "APX" auswählen und zustimmen.',
   "liLaunch"       :"Falls alles richtig läuft, sollte das Payload gesendet sein!",
+  "labelContribute" :"If you would like to help adding another translation or updating/adding a payload, check <a href="https://github.com/AtlasNX/web-cfw-loader/blob/master/CONTRIBUTING.md">this</a>.",
   "h1SetupDelivery" :"Konfiguration des Payloadversandes",
   "h4SelectPayload" :"Wähle ein Payload:",
   "optionAtmosphere" :"Atmosphère 0.8.3",

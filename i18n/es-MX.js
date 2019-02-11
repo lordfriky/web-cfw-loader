@@ -12,6 +12,7 @@ let esMX = {
   "liPress"        :"Presiona 'Enviar Payload!'",
   "liAPX"          :"En la pantalla que aparece, selecciona 'APX' y presiona 'Conectar'.",
   "liLaunch"       :"Si todo va bien, el payload arrancará!",
+  "labelContribute" :"Si te gustaría ayudar añadiendo otra traducción o actualizando/añadiendo un payload, revisa <a href="https://github.com/AtlasNX/web-cfw-loader/blob/master/CONTRIBUTING.md">esto</a>.",
   "h1SetupDelivery" :"Configurar Payload a Enviar",
   "h4SelectPayload" :"Seleccionar Payload:",
   "optionAtmosphere" :"Atmosphère 0.8.3",
@@ -26,6 +27,6 @@ let esMX = {
   "clearlogsbutton" :"Borrar registro",
   "disclaimer1" :'El código fuente puede ser encontrado en <a href="https://github.com/AtlasNX/web-cfw-loader/">GitHub</a> (o presionando ver código fuente, no hay backend!).',
   "disclaimer2" :'Portado de <a href="https://github.com/reswitched/fusee-launcher">fusee-launcher</a>.',
-  "disclaimer3" :'Gracias a <a href="https://github.com/ktemkin">ktemkin</a> y <a href="https://github.com/reswitched">ReSwitched</a>, tanto como a <br><a href="https://github.com/atlas44">Atlas44</a> y <br><a href="https://atlas44.s3-us-west-2.amazonaws.com/web-fusee-launcher/index.html">su sitio web</a> como punto de partida para este.',
+  "disclaimer3" :'Gracias a <a href="https://github.com/ktemkin">ktemkin</a> y <a href="https://github.com/reswitched">ReSwitched</a>, tanto como a <br><a href="https://github.com/atlas44">Atlas44</a> y <a href="https://atlas44.s3-us-west-2.amazonaws.com/web-fusee-launcher/index.html">su sitio web</a> como punto de partida para este.',
   "disclaimer4" :'Finalmente, gracias a <a href="https://github.com/ElijahZAwesome">ElijahZAwesome</a> por crear, mantener y tranferir este proyecto, <a href="https://github.com/falquinho">falquinho</a> por el nuevo diseño y la traducción en portugués, <a href="https://github.com/Filo97">Filo97</a> por la traducción en italiano, <a href="https://github.com/tumGER">tumGER</a> por la traducción en alemán, <a href="https://github.com/lordfriky">Lord_Friky</a> por la traducción en español y <a href="https://github.com/lorek123">Lorek</a> por la traducción en polaco.'
 }
