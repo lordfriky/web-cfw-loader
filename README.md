@@ -8,8 +8,21 @@ This is a port of [fusee-launcher](https://github.com/reswitched/fusee-launcher)
 This is also a fork of [web-fusee-launcher](https://github.com/atlas44/web-fusee-launcher), which I fixed up a bit, added hekate 5 and 4, and did some CSS stuff.
 
 # Try it out
-Either use a web server to host the files (must be on https, because of the fact that WebUSB is new technology and therefore has a lot of security restrictions) or you can try it [on github pages](https://webcfw.sdsetup.com/).
+Either use a web server to host the files (must be on https, because of the fact that WebUSB is new technology and therefore has a lot of security restrictions) or you can try it [here](https://webcfw.sdsetup.com/).
 
-# Credit
+# Contribute to this project
+If you want to add a new translation or update/add a payload, see [CONTRIBUTING](https://github.com/AtlasNX/web-cfw-loader/blob/master/CONTRIBUTING.md).
 
-@ElijahZAwesome for creating, maintaining and tranferring the repo
+# Credits
+- [**ElijahZAwesome**](https://github.com/ElijahZAwesome): For creating, maintaining and tranferring the repo.
+- [**falquinho**](https://github.com/falquinho): For his Bootstrap layout.
+
+### Translators
+- *Italiano* (Italian) - [**Filo97**](https://github.com/Filo97)
+- *Português* (Portuguese) - [**falquinho**](https://github.com/falquinho)
+- *Deutsch* (German) - [**tumGER**](https://github.com/tumGER)
+- *Español* (Spanish) - [**Lord_Friky**](https://github.com/lordfriky)
+- *Polski* (Polish) - [**Lorek**](https://github.com/lorek123)
+- *简体中文* (Simplified Chinese) - [**Rakau**](https://github.com/Rakau)
+- *繁体中文* (Traditional Chinese) - [**Rakau**](https://github.com/Rakau)
+- *Русский* (Russian) - [**tumGER**](https://github.com/tumGER)
