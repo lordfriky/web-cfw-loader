@@ -12,4 +12,4 @@ Either use a web server to host the files (must be on https, because of the fact
 
 # Credit
 
-@ElijahZAwesome for creating, maintaing and tranferring the repo
+@ElijahZAwesome for creating, maintaining and tranferring the repo
