@@ -12,7 +12,7 @@ let esMX = {
   "liPress"        :"Presiona 'Enviar Payload!'",
   "liAPX"          :"En la pantalla que aparece, selecciona 'APX' y presiona 'Conectar'.",
   "liLaunch"       :"Si todo va bien, el payload arrancará!",
-  "labelContribute" :"Si te gustaría ayudar añadiendo otra traducción o actualizando/añadiendo un payload, revisa <a href="https://github.com/AtlasNX/web-cfw-loader/blob/master/CONTRIBUTING.md">esto</a>.",
+  "labelContribute" :'Si te gustaría ayudar añadiendo otra traducción o actualizando/añadiendo un payload, revisa <a href="https://github.com/AtlasNX/web-cfw-loader/blob/master/CONTRIBUTING.md">esto</a>.',
   "h1SetupDelivery" :"Configurar Payload a Enviar",
   "h4SelectPayload" :"Seleccionar Payload:",
   "optionAtmosphere" :"Atmosphère 0.8.3",

@@ -12,7 +12,7 @@ let itIT = {
   "liPress"        :"Pemi 'Avvia payload!'",
   "liAPX"          :"Nello schermo di conferma, scegli 'APX' ae premi conferma.",
   "liLaunch"       :"Se tutto funziona il payload si avvierà!",
-  "labelContribute" :"If you would like to help adding another translation or updating/adding a payload, check <a href="https://github.com/AtlasNX/web-cfw-loader/blob/master/CONTRIBUTING.md">this</a>.",
+  "labelContribute" :'If you would like to help adding another translation or updating/adding a payload, check <a href="https://github.com/AtlasNX/web-cfw-loader/blob/master/CONTRIBUTING.md">this</a>.',
   "h1SetupDelivery" :"Setup Payload Delivery",
   "h4SelectPayload" :"Select Payload:",
   "optionAtmosphere" :"Atmosphère 0.8.3",
