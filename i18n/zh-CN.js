@@ -12,7 +12,7 @@ let zhCN = {
   "liPress"        :"点击 '传递 Payload!'",
   "liAPX"          :"在出现的对话框里，选择“APX”并点击“Connect”(Android系统可能会自动加载)",
   "liLaunch"       :"如果一切顺利，Payload将成功加载!",
-  "labelContribute" :"If you would like to help adding another translation or updating/adding a payload, check <a href="https://github.com/AtlasNX/web-cfw-loader/blob/master/CONTRIBUTING.md">this</a>.",
+  "labelContribute" :'If you would like to help adding another translation or updating/adding a payload, check <a href="https://github.com/AtlasNX/web-cfw-loader/blob/master/CONTRIBUTING.md">this</a>.',
   "h1SetupDelivery" :"部署 Payload",
   "h4SelectPayload" :"选择 Payload:",
   "optionAtmosphere" :"Atmosphère 0.8.3",
