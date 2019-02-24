@@ -14,8 +14,9 @@ let frFR = {
   "liLaunch"       :"Si tout est bon le Payload va démarrer!",
   "h1SetupDelivery" :"Configuration de l’envoi des Payloads",
   "h4SelectPayload" :"Sélectionnez le Payload:",
-  "optionCTCaerHekate" :"CTCaer's Hekate Mod v4.2 (All Firmwares)",
+  "optionCTCaerHekate" :"CTCaer's Hekate Mod v4.8 (All Firmwares)",
   "optionFusee"     :"(Re)Switched test payload (fusee)",
+  "optionAtmosphere":"Atmosphère 0.8.4"
   "optionSXOS"      :"SX OS (All Firmwares)",
   "optionReiNX"     :"ReiNX (With SigPatches)",
   "optionUpload"    :"Upload du Payload",
