@@ -14,7 +14,7 @@ Either use a web server to host the files (must be on https, because of the fact
 If you want to add a new translation or update/add a payload, see [CONTRIBUTING](https://github.com/AtlasNX/web-cfw-loader/blob/master/CONTRIBUTING.md).
 
 # Credits
-- [**ElijahZAwesome**](https://github.com/ElijahZAwesome): For creating, maintaining and tranferring the repo.
+- [**ElijahZAwesome**](https://github.com/ElijahZAwesome): For creating, maintaining and transferring the repo.
 - [**falquinho**](https://github.com/falquinho): For his Bootstrap layout.
 
 ### Translators
