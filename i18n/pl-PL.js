@@ -19,7 +19,7 @@ let plPL = {
   "optionAtmosphere" :"Atmosphère 0.8.4",
   "optionSXOS"      :"SX OS",
   "optionReiNX"     :"ReiNX 2.0",
-  "optionCTCaerHekate" :"CTCaer's Hekate Mod v4.8",
+  "optionCTCaerHekate" :"CTCaer's Hekate Mod v5.0.1",
   "optionFusee"     :"(Re)Switched testowy payload (fusee)",
   "optionUpload"    :"Załaduj payload",
   "h3Log"           :"Log:",
