@@ -32,7 +32,7 @@ function setPageLanguage(lang) {
   else if (lang === "fr-FR")
     langObj = frFR;
 
-  else if (lang === "du-NL"
+  else if (lang === "du-NL")
     langObj = duNL;
 
   else
