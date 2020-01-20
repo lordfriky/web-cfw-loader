@@ -56,18 +56,13 @@ function setPageLanguage(lang) {
   document.getElementById("labelContribute").innerHTML = langObj.labelContribute;
   document.getElementById("h1SetupDelivery").innerHTML = langObj.h1SetupDelivery;
   document.getElementById("h4SelectPayload").innerHTML = langObj.h4SelectPayload;
-  document.getElementById("optionAtmosphere").innerHTML = langObj.optionAtmosphere;
-  document.getElementById("optionSXOS").innerHTML      = langObj.optionSXOS;
-  document.getElementById("optionReiNX").innerHTML     = langObj.optionReiNX;
   document.getElementById("optionCTCaerHekate").innerHTML  = langObj.optionCTCaerHekate;
-  document.getElementById("optionFusee").innerHTML     = langObj.optionFusee;
   document.getElementById("optionUpload").innerHTML    = langObj.optionUpload;
   document.getElementById("h4GetByteArray").innerHTML  = langObj.h4GetByteArray;
   document.getElementById("h3Log").innerHTML           = langObj.h3Log;
   document.getElementById("goButton").innerHTML        = langObj.goButton;
   document.getElementById("clearlogsbutton").innerHTML = langObj.clearlogsbutton;
   document.getElementById("disclaimer1").innerHTML = langObj.disclaimer1;
-  document.getElementById("disclaimer2").innerHTML = langObj.disclaimer2;
   document.getElementById("disclaimer3").innerHTML = langObj.disclaimer3;
   document.getElementById("disclaimer4").innerHTML = langObj.disclaimer4;
 }
