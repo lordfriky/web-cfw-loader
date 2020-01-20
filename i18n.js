@@ -63,7 +63,6 @@ function setPageLanguage(lang) {
   document.getElementById("goButton").innerHTML        = langObj.goButton;
   document.getElementById("clearlogsbutton").innerHTML = langObj.clearlogsbutton;
   document.getElementById("disclaimer1").innerHTML = langObj.disclaimer1;
-  document.getElementById("disclaimer2").innerHTML = langObj.disclaimer2;
   document.getElementById("disclaimer3").innerHTML = langObj.disclaimer3;
   document.getElementById("disclaimer4").innerHTML = langObj.disclaimer4;
 }
