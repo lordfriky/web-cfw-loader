@@ -18,7 +18,7 @@ let duNL = {
   "optionAtmosphere" :"Atmosphère 0.8.4",
   "optionSXOS"      :"SX OS (All Versions)",
   "optionReiNX"     :"ReiNX 2.0",
-  "optionCTCaerHekate" :"CTCaer's Hekate Mod v5.0.1",
+  "optionCTCaerHekate" :"CTCaer's Hekate Mod v5.1.2",
   "optionFusee"     :"(Re)Switched test payload (fusee)",
   "optionUpload"    :"Upload Payload",
   "h3Log"           :"Log:",

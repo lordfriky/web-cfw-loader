@@ -15,7 +15,7 @@ let enUS = {
   "h1SetupDelivery" :"Setup Payload Delivery",
   "h4SelectPayload" :"Select Payload:",
   "optionAtmosphere" :"Atmosphère 0.8.4",
-  "optionCTCaerHekate" :"CTCaer's Hekate Mod v5.0.1",
+  "optionCTCaerHekate" :"CTCaer's Hekate Mod v5.1.2",
   "optionFusee"     :"(Re)Switched test payload (fusee)",
   "optionUpload"    :"Upload Payload",
   "h3Log"           :"Log:",

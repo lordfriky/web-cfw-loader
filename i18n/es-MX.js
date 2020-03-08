@@ -18,7 +18,7 @@ let esMX = {
   "optionAtmosphere" :"Atmosphère 0.8.4",
   "optionSXOS"      :"SX OS (Todas las Versiones)",
   "optionReiNX"     :"ReiNX 2.0",
-  "optionCTCaerHekate" :"Mod de Hekate de CTCaer v5.0.1",
+  "optionCTCaerHekate" :"Mod de Hekate de CTCaer v5.1.2",
   "optionFusee"     :"Payload de prueba de (Re)Switched (fusee)",
   "optionUpload"    :"Subir Payload",
   "h3Log"           :"Registro:",
