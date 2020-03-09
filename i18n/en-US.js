@@ -14,7 +14,7 @@ let enUS = {
   "labelContribute" :'If you would like to help adding another translation or updating/adding a payload, check <a href="https://github.com/AtlasNX/web-cfw-loader/blob/master/CONTRIBUTING.md">this</a>.',
   "h1SetupDelivery" :"Setup Payload Delivery",
   "h4SelectPayload" :"Select Payload:",
-  "optionAtmosphere" :"Atmosphère 0.8.4",
+  "optionAtmosphere" :"Atmosphère 0.10.3",
   "optionCTCaerHekate" :"CTCaer's Hekate Mod v5.1.2",
   "optionFusee"     :"(Re)Switched test payload (fusee)",
   "optionUpload"    :"Upload Payload",
