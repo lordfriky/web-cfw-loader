@@ -15,7 +15,7 @@ let deDE = {
   "labelContribute" :'Möchtest du helfen eine Übersetzung hinzuzufügen, zu verbessern oder einen Payload hinzuzufügen besuche <a href="https://github.com/AtlasNX/web-cfw-loader/blob/master/CONTRIBUTING.md">diese Seite</a>.',
   "h1SetupDelivery" :"Payload-Einstellungen",
   "h4SelectPayload" :"Wähle einen Payload:",
-  "optionAtmosphere" :"Atmosphère 0.10.3",
+  "optionAtmosphere" :"Atmosphère 0.10.4",
   "optionSXOS"      :"SX OS",
   "optionReiNX"     :"ReiNX 2.0",
   "optionCTCaerHekate" :"CTCaer's Hekate Mod v5.1.2",

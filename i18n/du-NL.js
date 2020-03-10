@@ -15,7 +15,7 @@ let duNL = {
   "labelContribute" :'Als je wilt helpen met vertalen of het bijwerken/toevoegen van een payload, kijk dan naar <a href="https://github.com/AtlasNX/web-cfw-loader/blob/master/CONTRIBUTING.md">dit</a>.',
   "h1SetupDelivery" :"Setup Payload Versturing",
   "h4SelectPayload" :"Selecteer Payload:",
-  "optionAtmosphere" :"Atmosphère 0.10.3",
+  "optionAtmosphere" :"Atmosphère 0.10.4",
   "optionSXOS"      :"SX OS (All Versions)",
   "optionReiNX"     :"ReiNX 2.0",
   "optionCTCaerHekate" :"CTCaer's Hekate Mod v5.1.2",
