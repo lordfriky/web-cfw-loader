@@ -150,19 +150,10 @@ document.getElementById("goButton").addEventListener("click", async () => {
   }
 
   let payload;
-  if (payloadType === "CTCaer_Hekate") {
-    payload = CTCaer_Hekate;
+  if (payloadType === "Hekate") {
+    payload = hekate;
 
-  } else if (payloadType === "fusee") {
-    payload = fusee;
-
-  } else if (payloadType === "sx os") {
-    payload = sx;
-
-  } else if (payloadType === "ReiNX") {
-    payload = ReiNX;
-
-  } else if (payloadType === "atmosphere") {
+  } else if (payloadType === "Atmosphere") {
     payload = fusee_ams;
 
   } else if (payloadType === "uploaded") {
