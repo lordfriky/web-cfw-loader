@@ -7,7 +7,7 @@ This is a port of [fusee-launcher](https://github.com/Qyriad/fusee-launcher) to 
 Supported browsers are Edge, Chrome, Opera and Chrome for Android. You can check the WebUSB browser compatibility list [here](https://caniuse.com/#feat=webusb).
 
 # Try it out
-Either use a web server to host the files or you can try it [here](https://webcfw.sdsetup.com/).
+Either use a web server to host the files or you can try it [here](https://lordfriky.github.io/web-cfw-loader).
 
 # Contribute to this project
 If you want to add a new translation or update/add a payload, see [CONTRIBUTING](https://github.com/lordfriky/web-cfw-loader/blob/master/CONTRIBUTING.md).
