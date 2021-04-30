@@ -15,7 +15,7 @@ let ruRU = {
   "labelContribute" :'If you would like to help adding another translation or updating/adding a payload, check <a href="https://github.com/AtlasNX/web-cfw-loader/blob/master/CONTRIBUTING.md">this</a>.',
   "h1SetupDelivery" :"Настройки отправки пейлоада",
   "h4SelectPayload" :"Выберите пейлоад:",
-  "optionAtmosphere" :"Atmosphère 0.19.1",
+  "optionAtmosphere" :"Atmosphère 0.19.2",
   "optionSXOS"      :"SX OS",
   "optionReiNX"     :"ReiNX 2.0",
   "optionCTCaerHekate" :"CTCaer's Hekate Mod v5.5.5",

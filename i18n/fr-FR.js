@@ -16,7 +16,7 @@ let frFR = {
   "h4SelectPayload" :"Sélectionnez le Payload:",
   "optionCTCaerHekate" :"CTCaer's Hekate Mod v5.5.5",
   "optionFusee"     :"(Re)Switched test payload (fusee)",
-  "optionAtmosphere":"Atmosphère 0.19.1",
+  "optionAtmosphere":"Atmosphère 0.19.2",
   "optionSXOS"      :"SX OS (All Firmwares)",
   "optionReiNX"     :"ReiNX (With SigPatches)",
   "optionUpload"    :"Upload du Payload",

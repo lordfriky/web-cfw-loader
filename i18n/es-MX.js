@@ -15,7 +15,7 @@ let esMX = {
   "labelContribute" :'Si te gustaría ayudar añadiendo otra traducción o actualizando/añadiendo un payload, revisa <a href="https://github.com/AtlasNX/web-cfw-loader/blob/master/CONTRIBUTING.md">esto</a>.',
   "h1SetupDelivery" :"Configurar Payload a Enviar",
   "h4SelectPayload" :"Seleccionar Payload:",
-  "optionAtmosphere" :"Atmosphère 0.19.1",
+  "optionAtmosphere" :"Atmosphère 0.19.2",
   "optionCTCaerHekate" :"Mod de Hekate de CTCaer v5.5.5",
   "optionFusee"     :"Payload de prueba de (Re)Switched (fusee)",
   "optionUpload"    :"Subir Payload",
