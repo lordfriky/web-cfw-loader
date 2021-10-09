@@ -159,6 +159,9 @@ document.getElementById("goButton").addEventListener("click", async () => {
   } else if (payloadType === "SX Loader") {
     payload = sxloader;
     
+  } else if (payloadType === "Argon"){
+    payload = argon;
+  
   } else if (payloadType === "uploaded") {
     const file = document.getElementById("payloadUpload").files[0];
     if (!file) {
