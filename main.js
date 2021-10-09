@@ -156,6 +156,9 @@ document.getElementById("goButton").addEventListener("click", async () => {
   } else if (payloadType === "Atmosphere") {
     payload = fusee_ams;
 
+  } else if (payloadType === "SX OS") {
+    payload = sxboot;
+    
   } else if (payloadType === "uploaded") {
     const file = document.getElementById("payloadUpload").files[0];
     if (!file) {
