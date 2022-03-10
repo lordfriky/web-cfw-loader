@@ -18,7 +18,7 @@ let zhCN = {
   "optionAtmosphere" :"Atmosphère 0.19.2",
   "optionSXOS"      :"SX OS",
   "optionReiNX"     :"ReiNX 2.0",
-  "optionCTCaerHekate"  :"CTCaer's Hekate Mod v5.5.5",
+  "optionCTCaerHekate"  :"CTCaer's Hekate Mod v5.7.0",
   "optionFusee"     :"(Re)Switched test payload (fusee)",
   "optionUpload"    :"上传 Payload",
   "h4GetByteArray"  :"获取Payload byte array (无Sploit)",
