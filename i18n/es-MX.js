@@ -16,7 +16,7 @@ let esMX = {
   "h1SetupDelivery" :"Configurar Payload a Enviar",
   "h4SelectPayload" :"Seleccionar Payload:",
   "optionAtmosphere" :"Atmosphère 0.19.2",
-  "optionCTCaerHekate" :"Mod de Hekate de CTCaer v5.5.5",
+  "optionCTCaerHekate" :"Mod de Hekate de CTCaer v5.7.0",
   "optionFusee"     :"Payload de prueba de (Re)Switched (fusee)",
   "optionUpload"    :"Subir Payload",
   "h3Log"           :"Registro:",
