@@ -18,7 +18,7 @@ let deDE = {
   "optionAtmosphere" :"Atmosphère 0.19.2",
   "optionSXOS"      :"SX OS",
   "optionReiNX"     :"ReiNX 2.0",
-  "optionCTCaerHekate" :"CTCaer's Hekate Mod v5.5.5",
+  "optionCTCaerHekate" :"CTCaer's Hekate Mod v5.7.0",
   "optionFusee"     :"(Re)Switched Test Payload (fusee)",
   "optionUpload"    :"Eigenen Payload hochladen",
   "h3Log"           :"Protokoll:",
