@@ -20,21 +20,23 @@ async function getPayloadList(){
 
 (async () => {
   const payloadSelect = document.getElementById("payloadSelect");
-
+  let payloadList;
   try {
-    const payloadList = await getPayloadList();
+    payloadList = await getPayloadList();
     
-    payloadList.forEach((payload) => {
-      const payloadOption = document.createElement("option");
-
-      payloadOption.value = payload.path;
-      payloadOption.innerHTML = payload.name + " " + payload.version;
-
-      payloadSelect.appendChild(payloadOption);
-    });
   } catch (error) {
-    logOutput("There was a problem retreiving the payload list. HTTP error code: " + error)
+    logOutput("There was a problem retreiving the payload list. Error: " + error);
+    return;
   }
+  payloadList.forEach((payload) => {
+    const payloadOption = document.createElement("option");
+
+    payloadOption.value = payload.path;
+    payloadOption.innerHTML = payload.name + " " + payload.version;
+
+    payloadSelect.appendChild(payloadOption);
+  });
+
 })()
 
 async function getPayload(payloadSrc){
@@ -191,7 +193,7 @@ document.getElementById("goButton").addEventListener("click", async () => {
     try {
       payload = new Uint8Array(await getPayload(payloadPath));
     } catch (error) {
-      logOutput("There was a problem retreiving the payload. HTTP error code: " + error)
+      logOutput("There was a problem retreiving the payload. Error: " + error)
       return;
     }
   }
