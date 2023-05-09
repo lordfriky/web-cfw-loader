@@ -1,0 +1,21 @@
+{
+  "payloads": [
+    {
+      "name": "Atmosphère 1.5.3",
+      "path": "payloads/ams-1.5.3.bin"
+    },
+    {
+      "name": "Hekate v6.0.3",
+      "path": "payloads/hekate-v6.0.3.bin"
+    },
+    {
+      "name": "TegraExplorer 4.0.1-hotfix4",
+      "path": "payloads/tegraexplorer-4.0.1-hotfix4.bin"
+    },
+    {
+      "name": "Upload payload",
+      "path": "uploaded"
+    }
+  ]
+}
+
