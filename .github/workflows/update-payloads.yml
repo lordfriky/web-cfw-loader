@@ -1,0 +1,83 @@
+name: Update payloads
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 3 * * 5" # 3:00 am on fridays
+jobs:
+  Update-Payloads:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install jq
+        run: sudo apt install -y jq
+
+      - name: Determine actual and latest versions of all payloads
+        run: |
+          # To-do: Maybe improve this process?
+
+          # Actual versions
+          echo "AMS_VERSION=$(sed -n 5p payloads/payloads.json | cut -d '"' -f4)" >> $GITHUB_ENV
+          echo "HKT_VERSION=$(sed -n 10p payloads/payloads.json | cut -d '"' -f4)" >> $GITHUB_ENV
+          echo "TEX_VERSION=$(sed -n 15p payloads/payloads.json | cut -d '"' -f4)" >> $GITHUB_ENV
+
+          # Latest versions
+          echo "AMS_LATEST=$(curl -s https://api.github.com/repos/Atmosphere-NX/Atmosphere/releases/latest | grep tag_name | cut -d '"' -f4)" >> $GITHUB_ENV
+          echo "HKT_LATEST=$(curl -s https://api.github.com/repos/CTCaer/hekate/releases/latest | grep tag_name | cut -d '"' -f4)" >> $GITHUB_ENV
+          echo "TEX_LATEST=$(curl -s https://api.github.com/repos/suchmememanyskill/TegraExplorer/releases/latest | grep tag_name | cut -d '"' -f4)" >> $GITHUB_ENV
+      - name: Update required payloads
+        run: |
+          mkdir payloads/temp && cd payloads/temp
+          UPDATE=false
+
+          if [[ "$AMS_VERSION" -ne "AMS_LATEST" ]]
+          then
+            UPDATE=true
+            rm ../ams-*.bin
+            wget $(curl -s https://api.github.com/repos/Atmosphere-NX/Atmosphere/releases/latest | grep browser_download_url | grep fusee.bin | cut -d '"' -f4)
+            mv fusee.bin ../ams-$AMS_LATEST.bin
+
+            jq --arg version "$AMS_LATEST" '.payloads[0].version |= $version' ../payloads.json | jq --arg path "payloads/ams-$AMS_LATEST.bin" '.payloads[0].path |= $path' > ../payloads_temp.json
+            mv ../payloads_temp.json ../payloads.json
+          fi
+          
+          if [[ "$HKT_VERSION" -ne "HKT_LATEST" ]]
+          then
+            UPDATE=true
+            rm ../hekate-*.bin
+            wget $(curl -s https://api.github.com/repos/CTCaer/hekate/releases/latest | grep browser_download_url | grep "hekate_ctcaer_.*\.zip" | cut -d '"' -f4)
+            unzip hekate_ctcaer_*.zip
+            mv hekate_ctcaer_*.bin ../hekate-$HKT_LATEST.bin
+
+            jq --arg version "$HKT_LATEST" '.payloads[1].version |= $version' ../payloads.json | jq --arg path "payloads/hekate-$HKT_LATEST.bin" '.payloads[1].path |= $path' > ../payloads_temp.json
+            mv ../payloads_temp.json ../payloads.json
+          fi
+
+          if [[ "$TEX_VERSION" -ne "$TEX_LATEST" ]]
+          then
+            UPDATE=true
+            rm ../tegraexplorer-*.bin
+            wget $(curl -s https://api.github.com/repos/suchmememanyskill/TegraExplorer/releases/latest | grep browser_download_url | grep TegraExplorer.bin | cut -d '"' -f4)
+            mv TegraExplorer.bin ../tegraexplorer-$TEX_LATEST.bin
+
+            jq --arg version "$TEX_LATEST" '.payloads[2].version |= $version' ../payloads.json | jq --arg path "payloads/hekate-$TEX_LATEST.bin" '.payloads[2].path |= $path' > ../payloads_temp.json
+            mv ../payloads_temp.json ../payloads.json
+          fi
+          
+          echo "UPDATE=$UPDATE" >> $GITHUB_ENV
+          cd ../.. && rm -r payloads/temp
+
+      - name: Commit changes if necessary
+        run: |
+          if [[ "$UPDATE" -eq true ]]
+          then
+            git config --global user.name 'GitHub Actions'
+            git config --global user.email 'github-actions@users.noreply.github.com'
+            git add --all
+            git commit -am ":robot: Payloads updated automatically"
+            git push
+          fi
+
+
+

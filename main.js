@@ -1,3 +1,53 @@
+function logOutput(...message) {
+  document.getElementById("output").innerHTML = document.getElementById("output").innerHTML + message.join(" ") + "<br>";
+}
+
+function clearLog() {
+  document.getElementById("output").innerHTML = "";
+}
+
+async function getPayloadList(){
+  return fetch("payloads/payloads.json")
+  .then((response) => {
+    if(!response.ok)
+      throw new Error(response.status);
+    return response.json();
+  })
+  .then((data) => {
+    return data.payloads;
+  });
+}
+
+(async () => {
+  const payloadSelect = document.getElementById("payloadSelect");
+  let payloadList;
+  try {
+    payloadList = await getPayloadList();
+    
+  } catch (error) {
+    logOutput("There was a problem retreiving the payload list. Error: " + error);
+    return;
+  }
+  payloadList.forEach((payload) => {
+    const payloadOption = document.createElement("option");
+
+    payloadOption.value = payload.path;
+    payloadOption.innerHTML = payload.name + " " + payload.version;
+
+    payloadSelect.appendChild(payloadOption);
+  });
+
+})()
+
+async function getPayload(payloadSrc){
+	return fetch(payloadSrc)
+	.then((response) => {
+		if(!response.ok)
+			throw new Error(response.status);
+		return response.arrayBuffer();
+	});
+}
+
 const intermezzo = new Uint8Array([
   0x44, 0x00, 0x9F, 0xE5, 0x01, 0x11, 0xA0, 0xE3, 0x40, 0x20, 0x9F, 0xE5, 0x00, 0x20, 0x42, 0xE0,
   0x08, 0x00, 0x00, 0xEB, 0x01, 0x01, 0xA0, 0xE3, 0x10, 0xFF, 0x2F, 0xE1, 0x00, 0x00, 0xA0, 0xE1,
@@ -7,13 +57,9 @@ const intermezzo = new Uint8Array([
   0x5C, 0xF0, 0x01, 0x40, 0x00, 0x00, 0x02, 0x40, 0x00, 0x00, 0x01, 0x40
 ]);
 
-
-
 const RCM_PAYLOAD_ADDRESS = 0x40010000;
 const INTERMEZZO_LOCATION = 0x4001F000;
 const PAYLOAD_LOAD_BLOCK = 0x40020000;
-
-
 
 function createRCMPayload(intermezzo, payload) {
   const rcmLength = 0x30298;
@@ -78,23 +124,7 @@ function readFileAsArrayBuffer(file) {
   });
 }
 
-
-
-function logOutput(...message) {
-  document.getElementById("output").innerHTML = document.getElementById("output").innerHTML + message.join(" ") + "<br>";
-}
-
-
-
-function clearLog() {
-  document.getElementById("output").innerHTML = "";
-}
-
-
-
 let device;
-
-
 
 async function launchPayload(payload) {
   await device.open();
@@ -135,7 +165,7 @@ async function launchPayload(payload) {
 document.getElementById("goButton").addEventListener("click", async () => {
   clearLog();
   var debugCheckbox = document.getElementById("shouldDebug");
-  const payloadType = document.getElementById("payloadSelect").value;
+  const payloadPath = document.getElementById("payloadSelect").value;
 
   if(!debugCheckbox.checked) {
 
@@ -150,13 +180,7 @@ document.getElementById("goButton").addEventListener("click", async () => {
   }
 
   let payload;
-  if (payloadType === "Hekate") {
-    payload = hekate;
-
-  } else if (payloadType === "Atmosphere") {
-    payload = fusee_ams;
-
-  } else if (payloadType === "uploaded") {
+  if (payloadPath === "uploaded") {
     const file = document.getElementById("payloadUpload").files[0];
     if (!file) {
       alert("You need to upload a file, to use an uploaded file.");
@@ -166,8 +190,12 @@ document.getElementById("goButton").addEventListener("click", async () => {
     payload = new Uint8Array(await readFileAsArrayBuffer(file));
 
   } else {
-    logOutput("<span style='color:red'>You're trying to load a payload type that doesn't exist.</span>");
-    return;
+    try {
+      payload = new Uint8Array(await getPayload(payloadPath));
+    } catch (error) {
+      logOutput("There was a problem retreiving the payload. Error: " + error)
+      return;
+    }
   }
 
   if(debugCheckbox.checked) {
@@ -179,7 +207,6 @@ document.getElementById("goButton").addEventListener("click", async () => {
     }
     payloadToLog = payloadToLog;
     logOutput(payloadToLog);
-    console.log(document.getElementById("payloadUpload").files[0]);
     return;
   }
 
