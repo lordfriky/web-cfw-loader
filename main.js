@@ -28,7 +28,7 @@ async function getPayloadList(){
       const payloadOption = document.createElement("option");
 
       payloadOption.value = payload.path;
-      payloadOption.innerHTML = payload.name;
+      payloadOption.innerHTML = payload.name + " " + payload.version;
 
       payloadSelect.appendChild(payloadOption);
     });
