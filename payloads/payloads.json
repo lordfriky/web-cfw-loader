@@ -2,8 +2,8 @@
   "payloads": [
     {
       "name": "Atmosphère",
-      "version": "1.5.3",
-      "path": "payloads/ams-1.5.3.bin"
+      "version": "1.5.4",
+      "path": "payloads/ams-1.5.4.bin"
     },
     {
       "name": "Hekate",
