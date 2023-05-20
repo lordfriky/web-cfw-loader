@@ -210,7 +210,7 @@ document.getElementById("goButton").addEventListener("click", async () => {
     return;
   }
 
-  logOutput(`<span style='color:blue'>Preparing to launch ${payloadType}...</span>`);
+  logOutput(`<span style='color:blue'>Preparing to launch ${payloadPath}...</span>`);
   launchPayload(payload);
 });
 
