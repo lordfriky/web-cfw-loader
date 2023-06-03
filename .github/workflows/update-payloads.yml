@@ -14,7 +14,9 @@ jobs:
         run: sudo apt install -y jq
 
       - name: Update payloads
-        run: sh extras/update-payloads.sh
+        run: |
+          chmod +x extras/update-payloads.sh
+          ./extras/update-payloads.sh
 
       - name: Commit changes if necessary
         run: |
