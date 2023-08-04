@@ -12,8 +12,8 @@
     },
     {
       "name": "TegraExplorer",
-      "version": "4.0.1-hotfix4",
-      "path": "payloads/tegraexplorer-4.0.1-hotfix4.bin"
+      "version": "4.1.0-b1",
+      "path": "payloads/hekate-4.1.0-b1.bin"
     },
     {
       "name": "Upload payload",
