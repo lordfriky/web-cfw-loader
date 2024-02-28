@@ -14,7 +14,7 @@ let deDE = {
   "liLaunch"       :"Falls alles richtig läuft, sollte der Payload gesendet werden!",
   "labelContribute" :'Möchtest du helfen eine Übersetzung hinzuzufügen, zu verbessern oder einen Payload hinzuzufügen besuche <a href="https://github.com/AtlasNX/web-cfw-loader/blob/master/CONTRIBUTING.md">diese Seite</a>.',
   "h1SetupDelivery" :"Payload-Einstellungen",
-  "h4SelectPayload" :"Wähle einen Payload:"
+  "h4SelectPayload" :"Wähle einen Payload:",
   "h3Log"           :"Protokoll:",
   "h4GetByteArray"  :"Erhalte den Payload Byte-Array (nicht senden)",
   "goButton"        :"Payload senden!",
