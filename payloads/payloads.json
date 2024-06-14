@@ -2,13 +2,13 @@
   "payloads": [
     {
       "name": "Atmosphère",
-      "version": "1.7.0-prerelease",
-      "path": "payloads/ams-1.7.0-prerelease.bin"
+      "version": "1.7.1",
+      "path": "payloads/ams-1.7.1.bin"
     },
     {
       "name": "Hekate",
-      "version": "v6.1.1",
-      "path": "payloads/hekate-v6.1.1.bin"
+      "version": "v6.2.0",
+      "path": "payloads/hekate-v6.2.0.bin"
     },
     {
       "name": "TegraExplorer",
