@@ -13,7 +13,7 @@
     {
       "name": "TegraExplorer",
       "version": "4.2.0",
-      "path": "payloads/hekate-4.2.0.bin"
+      "path": "payloads/tegraexplorer-4.2.0.bin"
     },
     {
       "name": "Upload payload",
