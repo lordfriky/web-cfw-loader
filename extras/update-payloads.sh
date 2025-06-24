@@ -56,7 +56,7 @@ then
   wget $(curl -s https://api.github.com/repos/suchmememanyskill/TegraExplorer/releases | jq '.[0]' | grep browser_download_url | grep TegraExplorer.bin | cut -d '"' -f4)
   mv TegraExplorer.bin ../tegraexplorer-$TEX_LATEST.bin
 
-  jq --arg version "$TEX_LATEST" '.payloads[2].version |= $version' ../payloads.json | jq --arg path "payloads/hekate-$TEX_LATEST.bin" '.payloads[2].path |= $path' > ../payloads_temp.json
+  jq --arg version "$TEX_LATEST" '.payloads[2].version |= $version' ../payloads.json | jq --arg path "payloads/tegraexplorer-$TEX_LATEST.bin" '.payloads[2].path |= $path' > ../payloads_temp.json
   mv ../payloads_temp.json ../payloads.json
   echo 'TegraExplorer successfully updated!'
 fi
