@@ -7,8 +7,8 @@
     },
     {
       "name": "Hekate",
-      "version": "v6.5.0",
-      "path": "payloads/hekate-v6.5.0.bin"
+      "version": "v6.5.1",
+      "path": "payloads/hekate-v6.5.1.bin"
     },
     {
       "name": "TegraExplorer",
